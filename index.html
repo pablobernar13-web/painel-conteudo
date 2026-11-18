@@ -1,0 +1,275 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Painel">
+<meta name="theme-color" content="#141824">
+<style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head><body>
+<title>Painel @opablobernar</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: coluna única pensada para o celular; abas fixas no topo (Hoje · Calendário · Vídeos · Ganchos · Regras) */
+:root{
+  --bg:#f3f4f7; --surface:#ffffff; --fg:#141824; --muted:#5d6475; --line:#dfe2ea;
+  --accent:#3046e8; --accent-soft:#e6e9ff; --rec:#e0452f; --rec-soft:#fde8e4; --ok:#16845b; --ok-soft:#e0f4ea; --story:#b5389a; --story-soft:#f8e6f3;
+  --display:"Space Grotesk",system-ui,sans-serif; --body:"Inter",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1118; --surface:#181b25; --fg:#eceef4; --muted:#9aa1b3; --line:#2a2f3d;
+  --accent:#8b9bff; --accent-soft:#232a52; --rec:#ff7a63; --rec-soft:#3a1f1b; --ok:#4fd19a; --ok-soft:#163327; --story:#f08ad6; --story-soft:#3a1d33; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1118; --surface:#181b25; --fg:#eceef4; --muted:#9aa1b3; --line:#2a2f3d;
+  --accent:#8b9bff; --accent-soft:#232a52; --rec:#ff7a63; --rec-soft:#3a1f1b; --ok:#4fd19a; --ok-soft:#163327; --story:#f08ad6; --story-soft:#3a1d33; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
+h1{font-size:1.5rem;letter-spacing:-.01em}
+h2{font-size:1.15rem}
+h3{font-size:1rem}
+.top{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;justify-content:space-between}
+.sub{color:var(--muted);font-size:.85rem}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:.8rem;color:var(--muted)}
+.stat b{display:block;font-family:var(--display);font-size:1.15rem;color:var(--fg);font-variant-numeric:tabular-nums}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);margin:16px -4px 0;padding:8px 4px;display:flex;gap:6px;overflow-x:auto;border-bottom:1px solid var(--line)}
+nav a{flex:none;text-decoration:none;color:var(--muted);font-weight:600;font-size:.9rem;padding:7px 12px;border-radius:999px}
+nav a[aria-current="page"]{background:var(--fg);color:var(--bg)}
+section{display:grid;gap:14px;margin-top:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:12px;min-width:0}
+.label{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:600;color:var(--muted)}
+.sechead{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-top:6px}
+.daybar{display:flex;align-items:center;gap:8px}
+.daybar h2{flex:1;text-align:center}
+.iconbtn{border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:8px;width:38px;height:38px;font-size:1.1rem;cursor:pointer}
+.iconbtn:disabled{opacity:.35;cursor:default}
+.chip{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent)}
+.chip.rec{background:var(--rec-soft);color:var(--rec)}
+.chip.ok{background:var(--ok-soft);color:var(--ok)}
+.chip.story{background:var(--story-soft);color:var(--story)}
+.hook{font-family:var(--display);font-size:1.2rem;font-weight:700;line-height:1.3}
+.block{display:grid;gap:6px}
+.blockhead{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.script{white-space:pre-wrap;background:var(--bg);border-radius:10px;padding:12px 14px;margin:0;font:16px/1.65 var(--body)}
+.final{background:var(--accent-soft);border-radius:10px;padding:12px 14px;font-weight:600;color:var(--fg)}
+.final small{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);margin-bottom:2px}
+.note{font-size:.85rem;color:var(--rec);background:var(--rec-soft);border-radius:8px;padding:8px 10px}
+pre.caption{white-space:pre-wrap;background:var(--bg);border-radius:10px;padding:10px 12px;margin:0;font:13px/1.55 var(--body)}
+ul.check{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+ul.check label{display:flex;gap:10px;align-items:flex-start;padding:8px 4px;border-radius:8px;cursor:pointer}
+ul.check label:hover{background:var(--bg)}
+ul.check input{width:20px;height:20px;margin-top:1px;accent-color:var(--ok);flex:none}
+ul.check input:checked+span{color:var(--muted);text-decoration:line-through}
+.meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.85rem;color:var(--muted)}
+.meta b{color:var(--fg);font-weight:600}
+.story{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}
+.story:last-child{border-bottom:0}
+.story input{width:20px;height:20px;margin-top:2px;accent-color:var(--ok)}
+.story .when{font-family:var(--mono);font-size:.75rem;color:var(--story);font-weight:500}
+.story .what{font-weight:600}
+.story .say{display:flex;gap:8px;align-items:flex-start;justify-content:space-between;margin-top:4px;background:var(--bg);border-radius:8px;padding:6px 8px;font-size:.9rem}
+.story .say span{min-width:0}
+.story .stk{font-size:.82rem;color:var(--muted);margin-top:4px}
+.story.done .what,.story.done .say{opacity:.5;text-decoration:line-through}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.85rem}
+th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+td.t{font-family:var(--mono);font-size:.78rem;white-space:nowrap}
+.copyrow{display:flex;gap:10px;align-items:flex-start;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line)}
+.copyrow:last-child{border-bottom:0}
+.copyrow span{min-width:0}
+button.copy{flex:none;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:8px;padding:5px 10px;font:600 .78rem var(--body);cursor:pointer}
+button.copy.main{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.week{display:grid;gap:8px}
+.wrow{display:grid;grid-template-columns:64px 1fr auto;gap:10px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:pointer}
+.wrow.today{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.wdate{font-family:var(--mono);font-size:.78rem;color:var(--muted);line-height:1.3}
+.wdate b{display:block;font-family:var(--display);font-size:1rem;color:var(--fg)}
+.wtxt{min-width:0}
+.wtxt .hookline{font-weight:600;line-height:1.35}
+.pills{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}
+.sync{font-size:.75rem;color:var(--muted)}
+.empty{color:var(--muted);font-size:.9rem}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+
+<div class="wrap">
+  <div class="top">
+    <div>
+      <h1>@opablobernar</h1>
+      <div class="sub" id="periodo">Vídeos às 12h15</div>
+    </div>
+    <div class="sync" id="sync">Carregando progresso…</div>
+  </div>
+  <div class="stats">
+    <div class="stat"><b id="st-seg">–</b><span id="st-seg-l">seguidores</span></div>
+    <div class="stat"><b id="st-dest">–</b><span id="st-dest-l"></span></div>
+    <div class="stat"><b id="st-rec">0/10</b>vídeos gravados</div>
+    <div class="stat"><b id="st-post">0/10</b>vídeos postados</div>
+  </div>
+
+  <nav aria-label="Seções">
+    <a href="#hoje">Hoje</a><a href="#semana">Calendário</a><a href="#reels">Vídeos</a><a href="#ganchos">Ganchos e finais</a><a href="#regras">Regras</a>
+  </nav>
+
+  <section id="v-hoje"></section>
+  <section id="v-semana" hidden></section>
+  <section id="v-reels" hidden></section>
+  <section id="v-ganchos" hidden></section>
+  <section id="v-regras" hidden></section>
+</div>
+
+<script src="painel-dados.js"></script>
+<script>
+const DIAS=["dom","seg","ter","qua","qui","sex","sáb"];
+const DIAS_LONGOS=["Domingo","Segunda","Terça","Quarta","Quinta","Sexta","Sábado"];
+const pd=s=>{const[y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
+const fmt=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+const ddmm=s=>s.slice(8)+"/"+s.slice(5,7);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const todayStr=fmt(new Date());
+let cur=todayStr<START?START:todayStr>END?END:todayStr;
+
+/* ---------- progresso: banco do artefato (todos os aparelhos) com reserva no navegador ---------- */
+let done={}, db=null;
+const LS="opb-progresso";
+try{done=JSON.parse(localStorage.getItem(LS)||"{}")}catch(e){}
+function saveLocal(){try{localStorage.setItem(LS,JSON.stringify(done))}catch(e){}}
+async function toggle(id,val){
+  if(val)done[id]=true;else delete done[id];
+  saveLocal();renderStats();renderAll();
+  if(db){try{
+    const ref=db.collection("progresso").doc(id);
+    if(val)await ref.set({feito:true,em:new Date().toISOString()});else await ref.delete();
+  }catch(e){setSync("Não salvou na nuvem. Ficou salvo neste aparelho.")}}
+}
+function setSync(t){document.getElementById("sync").textContent=t}
+(async()=>{
+  let api=null;
+  try{api=window.claude&&await window.claude.use("db")}catch(e){}
+  if(!api){setSync("Progresso salvo só neste aparelho");return}
+  db=api;
+  const timer=setTimeout(()=>setSync("Sem conexão com a nuvem ainda"),10000);
+  db.collection("progresso").onSnapshot(snap=>{
+    if(!snap.metadata.fromCache){clearTimeout(timer);setSync("Sincronizado entre aparelhos")}
+    const next={};snap.docs.forEach(d=>{if(d.exists&&d.data().feito)next[d.id]=true});
+    done=next;saveLocal();renderStats();renderAll();
+  },()=>{clearTimeout(timer);setSync("Progresso salvo só neste aparelho");db=null});
+})();
+
+function cb(id,txt){return `<li><label><input type="checkbox" data-id="${id}" ${done[id]?"checked":""}><span>${txt}</span></label></li>`}
+function copyBtn(text,label,main){return `<button class="copy${main?" main":""}" data-copy="${esc(text)}">${label||"Copiar"}</button>`}
+
+function reelCard(r,mode){
+  const st=`${done["g-r"+r.n]?'<span class="chip ok">gravado</span>':''}${done["p-r"+r.n]?' <span class="chip ok">postado</span>':''}`;
+  const full=r.texto+"\n\n"+r.final;
+  return `<div class="card">
+    <div class="meta"><span class="chip ${mode==="rec"?"rec":""}">Vídeo #${r.n} · ${esc(r.pilar)}</span>${st}</div>
+    <div class="hook">${esc(r.tela)}</div>
+    <div class="meta"><span>Onde: <b>${esc(r.onde)}</b></span><span>Grava: <b>${ddmm(r.gravar)}</b></span><span>Posta: <b>${ddmm(r.postar)}</b></span></div>
+    ${r.nota?`<div class="note">${esc(r.nota)}</div>`:""}
+    <div class="block"><div class="blockhead"><span class="label">Texto escrito na tela (1º segundo)</span>${copyBtn(r.tela)}</div></div>
+    <div class="block"><div class="blockhead"><span class="label">Texto para gravar</span>${copyBtn(full,"Copiar tudo",true)}</div>
+      <pre class="script">${esc(r.texto)}</pre></div>
+    <div class="final"><small>Falar no final</small>${esc(r.final)}</div>
+    <div class="block"><div class="blockhead"><span class="label">Legenda do post</span>${copyBtn(r.legenda)}</div><pre class="caption">${esc(r.legenda)}</pre></div>
+    <ul class="check">${cb("g-r"+r.n,"Gravado")}${cb("p-r"+r.n,"Postado")}</ul>
+  </div>`;
+}
+function storiesCard(s){
+  const list=STORIES[s]||[];
+  if(!list.length)return "";
+  return `<div class="card"><div class="sechead"><h3>Stories de hoje</h3><span class="chip story">${list.length} stories</span></div>
+   <div>${list.map((x,i)=>{const id="s-"+s+"-"+i,ok=done[id];return `<label class="story${ok?" done":""}"><input type="checkbox" data-id="${id}" ${ok?"checked":""}><div>
+     <div class="when">${esc(x[0])}</div><div class="what">${esc(x[1])}</div>
+     ${x[2]?`<div class="say"><span>Escrever: “${esc(x[2])}”</span>${copyBtn(x[2])}</div>`:""}
+     ${x[3]?`<div class="stk">Figurinha: ${esc(x[3])}</div>`:""}</div></label>`}).join("")}</div>
+   <div class="sub">Máximo de 4 por dia. Fale no singular, como se fosse pra uma pessoa.</div></div>`;
+}
+
+function renderHoje(){
+  const w=pd(cur).getDay();
+  const post=REELS.filter(r=>r.postar===cur), rec=REELS.filter(r=>r.gravar===cur&&r.postar!==cur), ex=EXTRAS.filter(e=>e.d===cur), br=BROLL[cur]||[];
+  const isToday=cur===todayStr;
+  document.getElementById("v-hoje").innerHTML=`
+    <div class="daybar"><button class="iconbtn" id="prev" aria-label="Dia anterior" ${cur<=START?"disabled":""}>‹</button>
+      <h2>${isToday?"Hoje · ":""}${DIAS_LONGOS[w]}, ${ddmm(cur)}</h2>
+      <button class="iconbtn" id="next" aria-label="Próximo dia" ${cur>=END?"disabled":""}>›</button></div>
+    ${post.length?`<div class="sechead"><span class="label">Postar às 12h15</span></div>${post.map(r=>reelCard(r,"post")).join("")}`:`<div class="card"><div class="label">Vídeo do dia</div><div class="empty">${cur==="2026-11-17"?"Hoje não posta vídeo: hoje à noite você grava três.":w===0?"Domingo sem vídeo novo. Dia de gravar a semana.":cur==="2026-11-30"?"Dia de revisão, sem vídeo novo.":"Sem vídeo hoje."}</div></div>`}
+    ${storiesCard(cur)}
+    ${rec.length?`<div class="sechead"><span class="label">Gravar hoje (${rec.length} vídeo${rec.length>1?"s":""})</span></div>${rec.map(r=>reelCard(r,"rec")).join("")}`:""}
+    ${br.length?`<div class="card"><h3>Filmar pra usar depois</h3><div class="sub">Não é pra postar. São imagens de apoio dos próximos vídeos.</div><ul class="check">${br.map((t,i)=>cb("b-"+cur+"-"+i,esc(t))).join("")}</ul></div>`:""}
+    ${ex.length?`<div class="card"><h3>Tarefas</h3><ul class="check">${ex.map(e=>cb(e.id,esc(e.txt))).join("")}</ul></div>`:""}`;
+  document.getElementById("prev").onclick=()=>{const x=pd(cur);x.setDate(x.getDate()-1);cur=fmt(x);renderHoje()};
+  document.getElementById("next").onclick=()=>{const x=pd(cur);x.setDate(x.getDate()+1);cur=fmt(x);renderHoje()};
+}
+function renderSemana(){
+  let html=`<div class="sub">Toque num dia para abrir na aba Hoje.</div><div class="week">`;
+  for(let x=pd(START);fmt(x)<=END;x.setDate(x.getDate()+1)){
+    const s=fmt(x),w=x.getDay();
+    const p=REELS.find(r=>r.postar===s), g=REELS.filter(r=>r.gravar===s&&r.postar!==s);
+    let txt=p?`<span class="hookline">#${p.n} ${esc(p.tela)}</span>`:`<span class="sub">${s===START?"Gravar os vídeos #1, #2 e #3":w===0?"Sem vídeo · gravar a semana":s===END?"Revisão das métricas":"Sem vídeo"}</span>`;
+    if(g.length&&p)txt+=`<div class="sub">Gravar: ${g.map(r=>"#"+r.n).join(", ")}</div>`;
+    else if(g.length&&s!==START)txt+=`<div class="sub">${g.map(r=>"#"+r.n).join(", ")}</div>`;
+    const ns=(STORIES[s]||[]).length;
+    const pills=(p?`${done["p-r"+p.n]?'<span class="chip ok">postado</span>':done["g-r"+p.n]?'<span class="chip ok">gravado</span>':'<span class="chip rec">gravar</span>'}`:"")+(ns?`<span class="chip story">${ns} stories</span>`:"");
+    html+=`<div class="wrow ${s===todayStr?"today":""}" role="button" tabindex="0" data-day="${s}"><div class="wdate"><b>${ddmm(s)}</b>${DIAS[w]}</div><div class="wtxt">${txt}</div><div class="pills">${pills}</div></div>`;
+  }
+  document.getElementById("v-semana").innerHTML=html+"</div>";
+}
+function renderReels(){
+  document.getElementById("v-reels").innerHTML=`<div class="sub">Os 10 vídeos, na ordem de postagem, com o texto pronto para o teleprompter.</div>`+REELS.map(r=>reelCard(r,"")).join("");
+}
+function renderGanchos(){
+  document.getElementById("v-ganchos").innerHTML=`
+   <div class="card"><h3>Ganchos</h3><div class="sub">A primeira frase do vídeo, também escrita na tela. Até 12 palavras.</div>
+   ${GANCHOS.map(g=>`<div class="copyrow"><span><span class="label">${g[0]}</span><br>${esc(g[1])}</span>${copyBtn(g[1])}</div>`).join("")}</div>
+   <div class="card"><h3>Frases pra falar no final</h3><div class="sub">Escolha uma por vídeo, conforme o que você quer que a pessoa faça.</div>
+   ${FINAIS.map(g=>`<div class="copyrow"><span><span class="label">${g[0]}</span><br>${esc(g[1])}</span>${copyBtn(g[1])}</div>`).join("")}</div>`;
+}
+function renderRegras(){
+  document.getElementById("v-regras").innerHTML=`<div class="card"><h3>Antes de postar, confira</h3><ul class="check">${REGRAS.map(r=>`<li><label><input type="checkbox"><span>${esc(r)}</span></label></li>`).join("")}</ul><div class="sub">Essa lista não salva: é só pra conferir na hora.</div></div>
+  <div class="card"><h3>Sua rotina e onde gravar</h3><div class="tablewrap"><table><tbody>
+   <tr><td class="t">7h</td><td>Café com ovos</td><td>story da manhã</td></tr>
+   <tr><td class="t">~7h30</td><td>Carro até o trabalho</td><td>gravar só com o carro parado</td></tr>
+   <tr><td class="t">dia</td><td>Russell: automação e agentes</td><td>tela sem dado de cliente</td></tr>
+   <tr><td class="t">12h15</td><td>Marmita</td><td>postar o vídeo · responder comentários</td></tr>
+   <tr><td class="t">17h30</td><td>Academia e corrida</td><td>story da noite</td></tr>
+   <tr><td class="t">qui/sáb</td><td>Natação</td><td>story</td></tr>
+   <tr><td class="t">dom</td><td>Cardio e marmitas</td><td>gravar os vídeos da semana (1 h)</td></tr>
+  </tbody></table></div></div>`;
+}
+function renderStats(){
+  document.getElementById("st-seg").textContent=PERFIL.seguidores;document.getElementById("st-seg-l").textContent="seguidores em "+PERFIL.seguidoresData;
+  document.getElementById("st-dest").textContent=PERFIL.destaqueNum;document.getElementById("st-dest-l").textContent=PERFIL.destaqueTxt;
+  document.getElementById("st-rec").textContent=REELS.filter(r=>done["g-r"+r.n]).length+"/"+REELS.length;
+  document.getElementById("st-post").textContent=REELS.filter(r=>done["p-r"+r.n]).length+"/"+REELS.length;
+}
+function renderAll(){renderHoje();renderSemana();renderReels();renderGanchos()}
+
+const VIEWS=["hoje","semana","reels","ganchos","regras"];
+function route(){
+  const v=VIEWS.includes(location.hash.slice(1))?location.hash.slice(1):"hoje";
+  VIEWS.forEach(k=>{document.getElementById("v-"+k).hidden=k!==v});
+  document.querySelectorAll("nav a").forEach(a=>a.setAttribute("aria-current",a.getAttribute("href")==="#"+v?"page":"false"));
+}
+document.addEventListener("change",e=>{const id=e.target.dataset&&e.target.dataset.id;if(id)toggle(id,e.target.checked)});
+document.addEventListener("click",e=>{
+  const b=e.target.closest("button.copy");
+  if(b){e.preventDefault();const t=b.dataset.copy,orig=b.textContent;
+    const ok=()=>{b.textContent="Copiado";setTimeout(()=>b.textContent=orig,1500)};
+    try{navigator.clipboard.writeText(t).then(ok,()=>{b.textContent="Selecione e copie"})}catch(err){b.textContent="Selecione e copie"}return}
+  const row=e.target.closest(".wrow");if(row){cur=row.dataset.day;renderHoje();location.hash="hoje"}
+});
+document.addEventListener("keydown",e=>{const row=e.target.closest&&e.target.closest(".wrow");if(row&&(e.key==="Enter"||e.key===" ")){e.preventDefault();row.click()}});
+window.addEventListener("hashchange",route);
+document.getElementById("periodo").textContent="Plano de "+ddmm(START)+" a "+ddmm(END)+" · vídeos às 12h15";
+renderStats();renderAll();renderRegras();route();
+</script>
+
+</body></html>

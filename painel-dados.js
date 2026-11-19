@@ -87,24 +87,34 @@ Quinta e sábado, natação. Domingo, marmita da semana.
 Não é motivação, é agenda.
 Me segue pra ver a rotina real.`},
 
- {n:5,pilar:"IA · automação",gravar:"2026-11-22",postar:"2026-11-23",onde:"Tela dividida + fala curta",
-  tela:"Como montar uma equipe de agentes de IA pro seu SGI: 1 agente por função.",
-  texto:`Como montar uma equipe de agentes de IA pro seu sistema de gestão: um agente por função.
+ {n:5,pilar:"IA · automação",gravar:"2026-11-22",postar:"2026-11-23",onde:"Voz off (sem aparecer): narração gravada por cima do vídeo de tela de 19/11 (sem áudio). Cortes: mapa 0-14 s + pastas 22-43 s",
+  tela:"1 pasta = 1 agente de IA. Assim monto minha equipe.",
+  texto:`[0-3 s | imagem: mapa | tela: o texto do gancho]
+1 pasta = 1 agente de IA. Assim eu monto a minha equipe.
 
-Primeiro, um gerente de projeto. É o ponto único: você fala só com ele, e ele distribui o trabalho.
+[3-14 s | imagem: mapa dos documentos | tela: "Cada ponto = um documento"]
+Isto é o mapa dos documentos de um sistema de gestão. Cada ponto é um documento, cada linha é uma ligação entre eles. Quem mantém tudo conectado não é uma IA só. É uma equipe.
 
-Depois, os especialistas. Um faz o diagnóstico do que falta. Outro levanta a legislação aplicável pra você conferir. Um para cada norma: 9001, 14001 e 45001.
+[14-24 s | imagem: pastas do VS Code | tela: "1 pasta = 1 agente"]
+Por trás, cada agente é uma pasta, com a sua função escrita. Um gerente recebe o pedido e distribui. Os especialistas cuidam cada um de uma norma. Outro levanta a legislação para você conferir.
 
-Um redator produz os documentos. E um auditor revisa, sem poder editar nada.
-
-Por que separar? Um agente só fazendo tudo tende a errar sem perceber.`,
-  final:"Quem escreve não revisa. Me segue que eu mostro cada agente por dentro, ou comenta AGENTE.",
-  legenda:`Como montar uma equipe de agentes de IA pro seu SGI: um agente por função.
-Gerente de projeto, diagnóstico, legislação, especialista em cada norma, redator e auditor.
+[24-35 s | imagem: pastas, rolando | tela: "Quem escreve não revisa"]
+Um redator produz os documentos. E um auditor só revisa, sem poder editar nada. Separar assim evita o erro que ninguém vê.`,
+  final:"Comenta AGENTE que eu te mando o passo a passo.",
+  legenda:`1 pasta = 1 agente de IA. Assim eu monto a minha equipe.
+Gerente, especialista por norma, levantamento de legislação, redator e auditor.
 Quem escreve não revisa.
-Me segue pra ver cada agente por dentro.
 Comenta AGENTE pra receber o passo a passo.`,
-  nota:"Ângulo diferente do #2 (aqui é o passo a passo da equipe, não o resultado). Sem números internos. Tela: mapa dos documentos ou painel, sem cliente. Antes/depois só qualitativo."},
+  nota:`VISUAL = vídeo de tela gravado em 19/11 (49 s, sem áudio, tremido), em midia/processado. Corte: 0-14 s mapa + corte natural em 21,7 s + 22-43 s pastas (uns 35 s; se preferir 28 s, termine em 36 s e corte a última frase). Narração em voz off por cima, ~35 s. Ângulo diferente do #2 (resultado) e do #7 (auditor com exemplo): aqui é só como montar a equipe. Sem números internos, sem PPP/cliente, sem dizer onde foi usado. BORRAR/CORTAR (social-media): logo Russell Bedford no mousepad (0,5 s); título da aba, cabeçalho, rodapé com nome da empresa e data da lista; barra de endereço (caminho de pastas); favoritos (FileServer, Compartilhamento, PORTAL, ESPEC); contagens da lateral do painel (números internos); no VS Code os nomes SGI_RUSSELL, SGI_NOVA, iso-sgi-medicao, 01_SGI-GERAL_MEDIÇÃO e o nome da pasta raiz no Explorer (deixar visíveis só agents, commands, skills e iso-9001/14001/45001); Obsidian, relógio e data da barra de tarefas (monitor da esquerda). Capa: quadro de 0,5 s sem o logo, ou o mapa borrado. Confira um scroll-through do vídeo inteiro antes de postar (só 6 quadros foram vistos).
+BORRAR ANTES DE POSTAR:
+1) Logo Russell Bedford no mousepad (~0,5 s).
+2) Título da aba, cabeçalho e rodapé com nome da empresa e data (~9 s).
+3) Barra de endereço com caminho de pastas.
+4) Favoritos (FileServer, Compartilhamento, PORTAL, ESPEC).
+5) Contagens da lateral (números internos).
+6) VS Code: nomes de pasta iso-sgi-medicao, SGI_NOVA, SGI_RUSSELL, 01_SGI-GERAL_MEDIÇÃO.
+7) Monitor da esquerda: Obsidian e relógio com data (se aparecer no corte).
+Capa: quadro de 0,5 s sem o logo, ou o mapa já borrado. Conferir o vídeo final quadro a quadro antes de postar. Usar o texto de tela entre aspas em cada cena.`},
 
  {n:6,pilar:"Gestão de projetos",gravar:"2026-11-20",postar:"2026-11-24",onde:"Casa",
   tela:"5 erros de quem gerencia projeto. O 3º é o que eu mais vejo.",
@@ -204,11 +214,11 @@ Salva pra montar a sua no próximo domingo.`}
 const STORIES={
  "2026-11-17":[["Agora","Compartilhar o post de hoje (ISO 9001)","Saiu meu primeiro vídeo. Sua empresa é certificada ISO?","Enquete: Sim / Não"],["Depois da corrida","Print do relógio com km e tempo","Treino feito.",""]],
  "2026-11-18":[["Manhã","Foto do café com ovos","Bom dia. Hoje sai vídeo sobre a ISO 9001 nova.",""],["12h20","Compartilhar o vídeo de hoje nos stories","Saiu vídeo novo. Seu certificado tem prazo.","Enquete: “Sua empresa é certificada ISO?” Sim / Não"],["Noite","Clip de 5 s da academia ou da corrida","Você treina de manhã ou de noite?","Enquete: Manhã / Noite"]],
- "2026-11-19":[["Manhã","Foto do café","Bom dia. Hoje vou mostrar um agente de IA que trabalha comigo.",""],["12h20","Compartilhar o vídeo de hoje","Esse agente vigia os documentos da ISO pra mim.","Caixinha: “Que tarefa você queria que uma IA fizesse por você?”"],["Noite","Clip de 5 s da natação","Quinta é dia de natação.",""],["Noite","Vídeo do mapa de 7 s (só se estiver sem nomes de documentos reais, ou borrado). Sem tela final, sem marcar a empresa","Bastidor: o mapa que a minha equipe de agentes de IA usa pra ISO. O vídeo de hoje é sobre um deles.",""],["Noite","Fundo liso ou o próprio mapa","Qual norma você quer ver virar agente?","Caixinha de perguntas. Usar as respostas como pauta de stories e olhar respostas e saídas como termômetro do interesse no tema"]],
+ "2026-11-19":[["Manhã","Foto do café","Bom dia. Hoje vou mostrar um agente de IA que trabalha comigo.",""],["12h20","Compartilhar o vídeo de hoje","Esse agente vigia os documentos da ISO pra mim.","Caixinha: “Que tarefa você queria que uma IA fizesse por você?”"],["Noite","Clip de 5 s da natação","Quinta é dia de natação.",""],["Noite","5 s do mapa do vídeo gravado hoje, com cabeçalho, rodapé, barra de endereço, favoritos e logo borrados (sem tela final, sem marcar a empresa)","Isso é o mapa dos documentos que a minha equipe de agentes mantém conectado. Qual norma você quer ver virar agente?","Caixinha de perguntas em cima do mapa. Usar as respostas como pauta de stories e termômetro do interesse"]]],
  "2026-11-20":[["Manhã","Foto do dia de folga","Feriado. Hoje conto de onde eu vim.",""],["12h20","Compartilhar o vídeo de hoje","De menor aprendiz a gestor de projetos.","Caixinha: “Qual foi o seu primeiro emprego?”"],["Noite","Clip da academia","Semana quase fechada.",""]],
  "2026-11-21":[["Meio-dia","Clip de 5 s da natação","Sábado começa na piscina.",""],["Tarde","Compartilhar o vídeo de hoje","A rotina real, sem filtro.",""],["Fim da tarde","Selfie ou foto do sábado","O que você faz pra desligar no fim de semana?","Caixinha de perguntas"]],
  "2026-11-22":[["Manhã","Clip de 5 s do cardio","Domingo: cardio e marmitas.",""],["Tarde","Foto das marmitas prontas","5 almoços prontos.","Enquete: “Você faz marmita?” Sim / Não"],["Noite","Foto do celular montado pra gravar","Gravando os vídeos da semana que vem.",""]],
- "2026-11-23":[["Manhã","Foto do café","Segunda. Qual é a primeira tarefa da sua semana?","Caixinha de perguntas"],["12h20","Compartilhar o vídeo de hoje","Antes e depois de automatizar.","Enquete: “Você ainda faz isso na mão?” Faço / Já automatizei"],["Tarde","Foto ou arte simples com a data 25 e 26/11 (sem logo de cliente)","Dia 25 e 26 tem o CONIPC, em Canoas: congresso de inovação em PPPs e Concessões, com mais de 70 palestrantes e painéis sobre novo marco legal e gestão contratual. Estarei lá. Vai estar? Me chama.","Caixinha: “Vai estar no CONIPC?”. Marcar @ibpppmunicipais (organizador)"],["Noite","Clip da academia","Treino feito. E você, já automatizou algo hoje?",""]],
+ "2026-11-23":[["Manhã","Foto do café","Segunda. Qual é a primeira tarefa da sua semana?","Caixinha de perguntas"],["12h20","Compartilhar o vídeo de hoje","Montar uma equipe de IA é dar função a cada agente. O vídeo de hoje mostra como.","Enquete: “Você usa IA como equipe ou só um chat?” Equipe / Só um chat"],["Tarde","Foto ou arte simples com a data 25 e 26/11 (sem logo de cliente)","Dia 25 e 26 tem o CONIPC, em Canoas: congresso de inovação em PPPs e Concessões, com mais de 70 palestrantes e painéis sobre novo marco legal e gestão contratual. Estarei lá. Vai estar? Me chama.","Caixinha: “Vai estar no CONIPC?”. Marcar @ibpppmunicipais (organizador)"],["Noite","Clip da academia","Treino feito. E você, já automatizou algo hoje?",""]],
  "2026-11-24":[["Manhã","Foto da mesa de trabalho, sem tela legível","Bom dia. Hoje o vídeo é sobre 5 erros de gestão de projetos.",""],["12h20","Compartilhar o vídeo de hoje","5 erros de gestão de projetos.","Enquete: “Qual desses erros você mais vê?” 1 / 3 / 5"],["Tarde","Foto da mochila ou do crachá pronto, sem nome de outros","Amanhã começa o CONIPC. Abertura às 9h, tarde com painel de gestão contratual e, às 17h, lançamento do IBPM Atlas. Estarei lá nos dois dias.","Contagem regressiva (“CONIPC amanhã”) + Caixinha: “Vai estar lá?”. Responder no direct quem disser que vai. Marcar @ibpppmunicipais"],["Noite","Print da corrida","Ritmo, não pressa.",""]],
  "2026-11-25":[["Manhã (ao vivo)","Vídeo curto da chegada ao Park Shopping Canoas (fachada ou entrada, sem rosto de terceiros)","Cheguei no CONIPC. Quem está por aqui, me chama no direct.","Localização: Canoas. Marcar @ibpppmunicipais (organizador)"],["12h20","Compartilhar o vídeo de hoje","A IA encontra. O humano decide.","Enquete: “Você confiaria na IA pra revisar documento?” Sim / Ainda não"],["Tarde (ao vivo)","Vídeo curto do painel ou do palco, de longe, sem rosto de terceiros e sem slide de cliente","Painel de hoje no CONIPC: o futuro das cidades na prática.","Marcar @ibpppmunicipais e usar #CONIPC2026"],["Noite","Compartilhar de novo o vídeo do agente (19/11)","Pra quem chegou agora: o agente que vigia a ISO pra mim.",""]],
  "2026-11-26":[["Manhã","Selfie no carro parado","Hoje eu conto do software que criei depois do expediente.",""],["12h20","Compartilhar o vídeo de hoje","Criei um software depois do CLT.","Caixinha: “Você tem um projeto paralelo?”"],["Tarde","Foto do seu crachá ou do corredor do evento, sem rosto de terceiros","CONIPC fechado. O que levei: [1 ideia que ficou]. Em breve conto num Reels.","Marcar @ibpppmunicipais. Enquete: “Quer um Reels do que vi no CONIPC?” Quero / Depois"],["Noite","Clip da natação","Quinta, natação.",""]],
@@ -236,6 +246,8 @@ const EXTRAS=[
  {d:"2026-11-21",id:"t-montar-r4",txt:"Montar o #4 com os clips da semana (edição do Instagram)"},
  {d:"2026-11-19",id:"t-preencher",txt:"Mandar pro Claude os dados do #5 e do #7 (colchetes) e a lista dos 9 agentes"},
  {d:"2026-11-19",id:"t-mapa-r2",txt:"Mapa de 7 s: pode usar como imagem de apoio no #2 e nos stories. Conferir só que não tenha nome de cliente nem de PPP específica (borrar se tiver). Pode dizer que os agentes foram usados no SGI da Russell. No #2, “mais nove agentes” só como contagem"},
+ {d:"2026-11-22",id:"t-editar-r5",txt:"Editar o #5 a partir do vídeo gravado em 19/11 (midia/processado): cortar 0-14 s + 22-36 s, borrar itens da lista (ver nota do #5), gravar narração"},
+ {d:"2026-11-22",id:"t-regravar-mapa",txt:"Regravar o mapa só com a tela cheia e firme (tripé ou gravação de tela) se quiser mais qualidade"},
  {d:"2026-11-22",id:"t-conipc-arroba",txt:"CONIPC: usar @ibpppmunicipais (IBPM, organizador) nos stories de 23 a 26/11 e #CONIPC2026; trocar só se o evento divulgar outra hashtag oficial"},
  {d:"2026-11-28",id:"t-conipc-montar",txt:"Montar o Reels pós-CONIPC com os takes de 25 e 26/11: gancho (“O que eu levei de 2 dias de congresso de PPPs”) + 3 aprendizados em tela, 20 a 30 s"},
  {d:"2026-11-30",id:"t-conipc-reels",txt:"Postar o Reels pós-CONIPC às 12h20 (dia sem vídeo novo no plano). Marcar @ibpppmunicipais na legenda e usar #CONIPC2026. Legenda com os 3 aprendizados e pergunta “qual você quer que eu aprofunde?”"},

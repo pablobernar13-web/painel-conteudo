@@ -32,7 +32,7 @@ Empresa que ainda vai se certificar: a partir de 31/03/2028, só na versão 2026
 Não precisa reescrever o sistema. Comece com uma análise de lacunas.
 Fonte: ISO/TC 176/SC 2. Confirme os prazos com a sua certificadora.`},
 
- {n:2,pilar:"IA · agentes",gravar:"2026-11-17",postar:"2026-11-19",onde:"Fala: carro parado. Tela: amanhã no trabalho",
+ {n:2,pilar:"IA · agentes",gravar:"2026-11-22",postar:"2026-11-23",onde:"Fala: carro parado ou em casa. B-roll: mapa de 7 s",
   tela:"Trabalho de semanas, feito em dias por uma equipe de IA.",
   texto:`Trabalho de semanas, feito em dias por uma equipe de IA.
 
@@ -43,11 +43,11 @@ Cada agente tem uma função: um pesquisa, outro escreve, outro só revisa.
 Quem escreve nunca revisa o próprio trabalho. Sozinha, a IA erra sem perceber. Com um revisor, o erro aparece antes de chegar a mim.
 
 Eu dou a direção, a equipe entrega, e a decisão é minha.`,
-  final:"Comenta AGENTE que eu te mando o passo a passo.",
+  final:"Me segue que nos próximos vídeos eu mostro cada agente por dentro.",
   legenda:`Trabalho de semanas, feito em dias por uma equipe de IA.
 O segredo não é a ferramenta: é dar uma função a cada agente e ter alguém revisando.
 Quem escreve nunca revisa. A decisão final é sempre da pessoa.
-Comenta AGENTE pra receber o passo a passo.`,
+Me segue que nos próximos vídeos eu mostro cada agente por dentro.`,
   nota:"Usar o vídeo de 7 s do mapa de documentos como B-roll durante o 3º e 4º parágrafos. Tela sem nome de cliente nem documento de cliente. Sem números exatos nem nome de empresa. 'Semanas em dias' só de forma abrangente. Detalhes (revisão de auditor, a confirmar, prática implantada) ficam para a série."},
 
  {n:3,pilar:"Carreira",gravar:"2026-11-17",postar:"2026-11-20",onde:"Casa",
@@ -87,25 +87,25 @@ Quinta e sábado, natação. Domingo, marmita da semana.
 Não é motivação, é agenda.
 Me segue pra ver a rotina real.`},
 
- {n:5,pilar:"IA · automação",gravar:"2026-11-22",postar:"2026-11-23",onde:"Voz off (sem aparecer): narração gravada por cima do vídeo de tela de 19/11 (sem áudio). Cortes: mapa 0-14 s + pastas 22-43 s",
-  tela:"1 arquivo = 1 agente de IA. Assim monto minha equipe.",
-  texto:`[0-3 s | imagem: mapa | tela: o texto do gancho]
+ {n:5,pilar:"IA · automação",gravar:"2026-11-19",postar:"2026-11-19",onde:"HOJE. Voz off (sem aparecer): narração gravada por cima do vídeo de tela de 19/11 (sem áudio). Cortes: mapa 0-14 s + pastas 22-43 s. Ativar a legenda automática do Instagram para a narração",
+  tela:"1 arquivo = 1 agente de IA.",
+  texto:`[0-3 s | imagem: mapa | tela: só o gancho escrito]
 1 arquivo = 1 agente de IA. Assim eu monto a minha equipe.
 
-[3-14 s | imagem: mapa dos documentos | tela: "Cada ponto = um documento"]
+[3-14 s | imagem: mapa dos documentos]
 Isto é o mapa dos documentos de um sistema de gestão. Cada ponto é um documento, cada linha é uma ligação entre eles. Quem mantém tudo conectado não é uma IA só. É uma equipe.
 
-[14-24 s | imagem: pastas do VS Code | tela: "1 arquivo = 1 agente"]
+[14-24 s | imagem: pastas do VS Code]
 Por trás, cada agente é um arquivo com a sua função escrita, todos na pasta de agentes. Um gerente recebe o pedido e distribui. Os especialistas cuidam cada um de uma norma. Outro levanta a legislação para você conferir.
 
-[24-35 s | imagem: pastas, rolando | tela: "Quem escreve não revisa"]
+[24-35 s | imagem: pastas, rolando]
 Um redator produz os documentos. E um auditor só revisa, sem poder editar nada. Separar assim evita o erro que ninguém vê.`,
-  final:"Comenta AGENTE que eu te mando o passo a passo.",
+  final:"Me segue que nos próximos vídeos eu mostro cada agente por dentro.",
   legenda:`1 arquivo = 1 agente de IA. Assim eu monto a minha equipe.
 Gerente, especialista por norma, levantamento de legislação, redator e auditor.
 Quem escreve não revisa.
-Comenta AGENTE pra receber o passo a passo.`,
-  nota:`VISUAL = vídeo de tela gravado em 19/11 (49 s, sem áudio, tremido), em midia/processado. Corte: 0-14 s mapa + corte natural em 21,7 s + 22-43 s pastas (uns 35 s; se preferir 28 s, termine em 36 s e corte a última frase). Narração em voz off por cima, ~35 s. Ângulo diferente do #2 (resultado) e do #7 (auditor com exemplo): aqui é só como montar a equipe. Sem números internos, sem PPP/cliente, sem dizer onde foi usado. BORRAR/CORTAR (social-media): logo Russell Bedford no mousepad (0,5 s); título da aba, cabeçalho, rodapé com nome da empresa e data da lista; barra de endereço (caminho de pastas); favoritos (FileServer, Compartilhamento, PORTAL, ESPEC); contagens da lateral do painel (números internos); no VS Code os nomes SGI_RUSSELL, SGI_NOVA, iso-sgi-medicao, 01_SGI-GERAL_MEDIÇÃO e o nome da pasta raiz no Explorer (deixar visíveis só agents, commands, skills e iso-9001/14001/45001); Obsidian, relógio e data da barra de tarefas (monitor da esquerda). Capa: quadro de 0,5 s sem o logo, ou o mapa borrado. Confira um scroll-through do vídeo inteiro antes de postar (só 6 quadros foram vistos).
+Me segue que nos próximos vídeos eu mostro cada agente por dentro.`,
+  nota:`HOJE (19/11, 12h20 ou à noite). Tela: só o gancho escrito nos 0-2 s; ative a legenda automática do Instagram para a narração. VISUAL = vídeo de tela gravado em 19/11 (49 s, sem áudio, tremido), em midia/processado. Corte: 0-14 s mapa + corte natural em 21,7 s + 22-43 s pastas (uns 35 s; se preferir 28 s, termine em 36 s e corte a última frase). Narração em voz off por cima, ~35 s. Ângulo diferente do #2 (resultado) e do #7 (auditor com exemplo): aqui é só como montar a equipe. Sem números internos, sem PPP/cliente, sem dizer onde foi usado. BORRAR/CORTAR (social-media): logo Russell Bedford no mousepad (0,5 s); título da aba, cabeçalho, rodapé com nome da empresa e data da lista; barra de endereço (caminho de pastas); favoritos (FileServer, Compartilhamento, PORTAL, ESPEC); contagens da lateral do painel (números internos); no VS Code os nomes SGI_RUSSELL, SGI_NOVA, iso-sgi-medicao, 01_SGI-GERAL_MEDIÇÃO e o nome da pasta raiz no Explorer (deixar visíveis só agents, commands, skills e iso-9001/14001/45001); Obsidian, relógio e data da barra de tarefas (monitor da esquerda). Capa: quadro de 0,5 s sem o logo, ou o mapa borrado. Confira um scroll-through do vídeo inteiro antes de postar (só 6 quadros foram vistos).
 BORRAR ANTES DE POSTAR:
 1) Logo Russell Bedford no mousepad (~0,5 s).
 2) Título da aba, cabeçalho e rodapé com nome da empresa e data (~9 s).
@@ -131,10 +131,10 @@ Quatro: guardar problema pra contar depois. Risco avisado cedo é risco barato.
 Cinco: medir tudo e não decidir nada. Indicador que não muda decisão é enfeite.
 
 O que eu mais vejo é o número três. Lembra qual era?`,
-  final:"Comenta qual desses você mais vê no seu trabalho.",
+  final:"Me segue que toda semana eu mostro mais sobre gestão de projetos.",
   legenda:`5 erros de gestão de projetos.
 O 3º é o que eu mais vejo, e quase ninguém percebe.
-Comenta qual desses você mais vê no seu trabalho.`,
+Me segue que toda semana eu mostro mais sobre gestão de projetos.`,
   nota:"Se puder, conte um caso seu no erro 3, sem citar cliente."},
 
  {n:7,pilar:"IA + ISO",gravar:"2026-11-22",postar:"2026-11-25",onde:"Casa + tela",
@@ -150,12 +150,12 @@ Quando falta informação, a IA escreve a confirmar pela empresa, em vez de inve
 E documento pronto não é prática implantada: escrever o procedimento é uma coisa, a empresa fazer de verdade é outra.
 
 Ele não substitui gente. A IA acha, o humano decide o que é problema.`,
-  final:"Comenta ISO que eu te mostro como ele funciona por dentro.",
+  final:"Me segue que nos próximos vídeos eu mostro como a equipe funciona por dentro.",
   legenda:`Uma equipe de agentes de IA revisando documento ISO: um escreve, um é especialista na norma, um audita sem editar.
 O auditor só dá o parecer e devolve pro redator. Quando falta dado, a IA marca a confirmar.
 O exemplo do vídeo é ilustrativo.
 A IA encontra, o humano decide.
-Comenta ISO pra ver por dentro.`,
+Me segue pra ver a equipe por dentro nos próximos vídeos.`,
   nota:"Exemplo de parecer é ilustrativo e genérico (dito na fala); sem dado de cliente nem número de pareceres. Tela: mostrar um parecer de exemplo montado só pro vídeo."},
 
  {n:8,pilar:"Bastidor",gravar:"2026-11-20",postar:"2026-11-26",onde:"Casa",
@@ -169,10 +169,10 @@ Foram três meses de código, à noite e no fim de semana, e mais seis meses de 
 O primeiro cliente fechou com mensalidade fixa.
 
 O que eu aprendi: ninguém compra software. Compra o problema resolvido. E eu conhecia esse problema porque já tinha vivido ele de perto.`,
-  final:"Quer a história completa? Comenta HISTÓRIA.",
+  final:"Me segue que nos próximos vídeos eu conto o resto da história.",
   legenda:`3 meses de código depois do expediente. 6 meses de teste. 1 cliente pagando.
 Ninguém compra software, compra o problema resolvido.
-Comenta HISTÓRIA que eu conto o resto.`,
+Me segue que eu conto o resto nos próximos vídeos.`,
   nota:"Liberado (Pablo confirmou em 17/11). Não fale o nome do cliente nem o valor do contrato."},
 
  {n:9,pilar:"Reflexão",gravar:"2026-11-25",postar:"2026-11-27",onde:"Logo depois da corrida, ainda na rua",
@@ -214,13 +214,13 @@ Salva pra montar a sua no próximo domingo.`}
 const STORIES={
  "2026-11-17":[["Agora","Compartilhar o post de hoje (ISO 9001)","Saiu meu primeiro vídeo. Sua empresa é certificada ISO?","Enquete: Sim / Não"],["Depois da corrida","Print do relógio com km e tempo","Treino feito.",""]],
  "2026-11-18":[["Manhã","Foto do café com ovos","Bom dia. Hoje sai vídeo sobre a ISO 9001 nova.",""],["12h20","Compartilhar o vídeo de hoje nos stories","Saiu vídeo novo. Seu certificado tem prazo.","Enquete: “Sua empresa é certificada ISO?” Sim / Não"],["Noite","Clip de 5 s da academia ou da corrida","Você treina de manhã ou de noite?","Enquete: Manhã / Noite"]],
- "2026-11-19":[["Manhã","Foto do café","Bom dia. Hoje vou mostrar um agente de IA que trabalha comigo.",""],["12h20","Compartilhar o vídeo de hoje","Esse agente vigia os documentos da ISO pra mim.","Caixinha: “Que tarefa você queria que uma IA fizesse por você?”"],["Noite","Clip de 5 s da natação","Quinta é dia de natação.",""],["Noite","5 s do mapa do vídeo gravado hoje, com cabeçalho, rodapé, barra de endereço, favoritos e logo borrados (sem tela final, sem marcar a empresa)","Isso é o mapa dos documentos que a minha equipe de agentes mantém conectado. Qual norma você quer ver virar agente?","Caixinha de perguntas em cima do mapa. Usar as respostas como pauta de stories e termômetro do interesse"]]],
+ "2026-11-19":[["Manhã","Foto do café","Bom dia. Hoje sai vídeo: como eu monto minha equipe de agentes de IA.",""],["12h20","Compartilhar o vídeo de hoje","Como eu monto minha equipe de agentes de IA, por dentro.","Caixinha: “Que tarefa você queria que uma IA fizesse por você?”"],["Noite","Clip de 5 s da natação","Quinta é dia de natação.",""],["Noite","5 s do mapa do vídeo gravado hoje, com cabeçalho, rodapé, barra de endereço, favoritos e logo borrados (sem tela final, sem marcar a empresa)","Isso é o mapa que a minha equipe de agentes mantém conectado. Qual norma você quer ver virar agente?","Caixinha de perguntas em cima do mapa. Usar as respostas como pauta de stories e termômetro do interesse"]],
  "2026-11-20":[["Manhã","Foto do dia de folga","Feriado. Hoje conto de onde eu vim.",""],["12h20","Compartilhar o vídeo de hoje","De menor aprendiz a gestor de projetos.","Caixinha: “Qual foi o seu primeiro emprego?”"],["Noite","Clip da academia","Semana quase fechada.",""]],
  "2026-11-21":[["Meio-dia","Clip de 5 s da natação","Sábado começa na piscina.",""],["Tarde","Compartilhar o vídeo de hoje","A rotina real, sem filtro.",""],["Fim da tarde","Selfie ou foto do sábado","O que você faz pra desligar no fim de semana?","Caixinha de perguntas"]],
  "2026-11-22":[["Manhã","Clip de 5 s do cardio","Domingo: cardio e marmitas.",""],["Tarde","Foto das marmitas prontas","5 almoços prontos.","Enquete: “Você faz marmita?” Sim / Não"],["Noite","Foto do celular montado pra gravar","Gravando os vídeos da semana que vem.",""]],
- "2026-11-23":[["Manhã","Foto do café","Segunda. Qual é a primeira tarefa da sua semana?","Caixinha de perguntas"],["12h20","Compartilhar o vídeo de hoje","Montar uma equipe de IA é dar função a cada agente. O vídeo de hoje mostra como.","Enquete: “Você usa IA como equipe ou só um chat?” Equipe / Só um chat"],["Tarde","Foto ou arte simples com a data 25 e 26/11 (sem logo de cliente)","Dia 25 e 26 tem o CONIPC, em Canoas: congresso de inovação em PPPs e Concessões, com mais de 70 palestrantes e painéis sobre novo marco legal e gestão contratual. Estarei lá. Vai estar? Me chama.","Caixinha: “Vai estar no CONIPC?”. Marcar @ibpppmunicipais (organizador)"],["Noite","Clip da academia","Treino feito. E você, já automatizou algo hoje?",""]],
+ "2026-11-23":[["Manhã","Foto do café","Segunda. Qual é a primeira tarefa da sua semana?","Caixinha de perguntas"],["12h20","Compartilhar o vídeo de hoje","Trabalho de semanas, feito em dias. O segredo é organizar a IA como equipe.","Enquete: “Você usa IA como equipe ou só um chat?” Equipe / Só um chat"],["Tarde","Foto ou arte simples com a data 25 e 26/11 (sem logo de cliente)","Dia 25 e 26 tem o CONIPC, em Canoas: congresso de inovação em PPPs e Concessões, com mais de 70 palestrantes e painéis sobre novo marco legal e gestão contratual. Estarei lá. Vai estar? Me chama.","Caixinha: “Vai estar no CONIPC?”. Marcar @ibpppmunicipais (organizador)"],["Noite","Clip da academia","Treino feito. E você, já automatizou algo hoje?",""]],
  "2026-11-24":[["Manhã","Foto da mesa de trabalho, sem tela legível","Bom dia. Hoje o vídeo é sobre 5 erros de gestão de projetos.",""],["12h20","Compartilhar o vídeo de hoje","5 erros de gestão de projetos.","Enquete: “Qual desses erros você mais vê?” 1 / 3 / 5"],["Tarde","Foto da mochila ou do crachá pronto, sem nome de outros","Amanhã começa o CONIPC. Abertura às 9h, tarde com painel de gestão contratual e, às 17h, lançamento do IBPM Atlas. Estarei lá nos dois dias.","Contagem regressiva (“CONIPC amanhã”) + Caixinha: “Vai estar lá?”. Responder no direct quem disser que vai. Marcar @ibpppmunicipais"],["Noite","Print da corrida","Ritmo, não pressa.",""]],
- "2026-11-25":[["Manhã (ao vivo)","Vídeo curto da chegada ao Park Shopping Canoas (fachada ou entrada, sem rosto de terceiros)","Cheguei no CONIPC. Quem está por aqui, me chama no direct.","Localização: Canoas. Marcar @ibpppmunicipais (organizador)"],["12h20","Compartilhar o vídeo de hoje","A IA encontra. O humano decide.","Enquete: “Você confiaria na IA pra revisar documento?” Sim / Ainda não"],["Tarde (ao vivo)","Vídeo curto do painel ou do palco, de longe, sem rosto de terceiros e sem slide de cliente","Painel de hoje no CONIPC: o futuro das cidades na prática.","Marcar @ibpppmunicipais e usar #CONIPC2026"],["Noite","Compartilhar de novo o vídeo do agente (19/11)","Pra quem chegou agora: o agente que vigia a ISO pra mim.",""]],
+ "2026-11-25":[["Manhã (ao vivo)","Vídeo curto da chegada ao Park Shopping Canoas (fachada ou entrada, sem rosto de terceiros)","Cheguei no CONIPC. Quem está por aqui, me chama no direct.","Localização: Canoas. Marcar @ibpppmunicipais (organizador)"],["12h20","Compartilhar o vídeo de hoje","A IA encontra. O humano decide.","Enquete: “Você confiaria na IA pra revisar documento?” Sim / Ainda não"],["Tarde (ao vivo)","Vídeo curto do painel ou do palco, de longe, sem rosto de terceiros e sem slide de cliente","Painel de hoje no CONIPC: o futuro das cidades na prática.","Marcar @ibpppmunicipais e usar #CONIPC2026"],["Noite","Compartilhar de novo o vídeo do agente (19/11)","Pra quem chegou agora: como eu monto minha equipe de agentes de IA.",""]],
  "2026-11-26":[["Manhã","Selfie no carro parado","Hoje eu conto do software que criei depois do expediente.",""],["12h20","Compartilhar o vídeo de hoje","Criei um software depois do CLT.","Caixinha: “Você tem um projeto paralelo?”"],["Tarde","Foto do seu crachá ou do corredor do evento, sem rosto de terceiros","CONIPC fechado. O que levei: [1 ideia que ficou]. Em breve conto num Reels.","Marcar @ibpppmunicipais. Enquete: “Quer um Reels do que vi no CONIPC?” Quero / Depois"],["Noite","Clip da natação","Quinta, natação.",""]],
  "2026-11-27":[["Manhã","Foto do tênis de corrida","Sexta. Tênis pronto pra correr hoje.",""],["12h20","Compartilhar o vídeo de hoje","Correr me ensinou sobre prazo.","Slider: “Quantos km você corre por semana?”"],["Noite","Print da corrida","Semana fechada: 5 vídeos postados.",""]],
  "2026-11-28":[["Meio-dia","Clip da natação","Sábado começa na piscina.",""],["Tarde","Compartilhar o vídeo com mais views da semana","Caso você tenha perdido.",""],["Fim da tarde","Selfie","Sobre o que você quer vídeo semana que vem?","Caixinha de perguntas"]],
@@ -245,9 +245,8 @@ const EXTRAS=[
  {d:"2026-11-20",id:"t-fixar-r3",txt:"Fixar o vídeo #3 no topo do perfil"},
  {d:"2026-11-21",id:"t-montar-r4",txt:"Montar o #4 com os clips da semana (edição do Instagram)"},
  {d:"2026-11-19",id:"t-preencher",txt:"Mandar pro Claude os dados do #5 e do #7 (colchetes) e a lista dos 9 agentes"},
- {d:"2026-11-19",id:"t-mapa-r2",txt:"Mapa de 7 s: pode usar como imagem de apoio no #2 e nos stories. Conferir só que não tenha nome de cliente nem de PPP específica (borrar se tiver). Pode dizer que os agentes foram usados no SGI da Russell. No #2, “mais nove agentes” só como contagem"},
- {d:"2026-11-22",id:"t-editar-r5",txt:"Editar o #5 a partir do vídeo gravado em 19/11 (midia/processado): cortar 0-14 s + 22-36 s, borrar itens da lista (ver nota do #5), gravar narração"},
- {d:"2026-11-22",id:"t-regravar-mapa",txt:"Regravar o mapa só com a tela cheia e firme (tripé ou gravação de tela) se quiser mais qualidade"},
+ {d:"2026-11-22",id:"t-mapa-r2",txt:"Mapa de 7 s: pode usar como imagem de apoio no #2 (posta 23/11) e nos stories. Conferir só que não tenha nome de cliente nem de PPP específica (borrar se tiver). Pode dizer que os agentes foram usados no SGI da Russell. No #2, “mais nove agentes” só como contagem"},
+ {d:"2026-11-19",id:"t-editar-r5",txt:"HOJE: editar o #5 (vídeo narrado) a partir do vídeo gravado em 19/11 (midia/processado): cortar 0-14 s + 22-43 s, borrar itens da lista (ver nota do #5), gravar narração, ativar a legenda automática do Instagram e postar às 12h20 (ou à noite)"},
  {d:"2026-11-22",id:"t-conipc-arroba",txt:"CONIPC: usar @ibpppmunicipais (IBPM, organizador) nos stories de 23 a 26/11 e #CONIPC2026; trocar só se o evento divulgar outra hashtag oficial"},
  {d:"2026-11-28",id:"t-conipc-montar",txt:"Montar o Reels pós-CONIPC com os takes de 25 e 26/11: gancho (“O que eu levei de 2 dias de congresso de PPPs”) + 3 aprendizados em tela, 20 a 30 s"},
  {d:"2026-11-30",id:"t-conipc-reels",txt:"Postar o Reels pós-CONIPC às 12h20 (dia sem vídeo novo no plano). Marcar @ibpppmunicipais na legenda e usar #CONIPC2026. Legenda com os 3 aprendizados e pergunta “qual você quer que eu aprofunde?”"},
@@ -261,7 +260,7 @@ const GANCHOS=[
  ["Curiosidade","Pedi pra IA fazer meu trabalho de uma semana. Deu nisso."],["Curiosidade","Ninguém te conta isso sobre virar gestor."],
  ["Antes e depois","Esse era meu relatório. Esse é o de hoje."],["Identificação","Posso te desanimar? Certificado não te promove."]
 ];
-const FINAIS=[["Pra ganhar seguidor","Me segue que amanhã eu mostro a parte 2."],["Pra salvarem","Salva pra usar na próxima segunda."],["Pra compartilharem","Manda pra aquele colega que ainda faz isso na mão."],["Pra comentarem","Comenta AGENTE que eu te mostro os outros."],["Pra chamarem no direct","Me chama no direct com a palavra PLANILHA."]];
+const FINAIS=[["Pra ganhar seguidor","Me segue que amanhã eu mostro a parte 2."],["Pra salvarem","Salva pra usar na próxima segunda."],["Pra compartilharem","Manda pra aquele colega que ainda faz isso na mão."],["Pra seguirem a série","Me segue que nos próximos vídeos eu mostro cada agente por dentro."],["Pra aplicar no caso deles","Me chama no direct que eu te ajudo a aplicar isso no seu caso."]];
 const REGRAS=["Texto da tela aparece no 1º segundo","Celular na mão, fora do escritório","Teleprompter perto da lente, pra não parecer leitura","Blusa escura, lugar claro, vertical 9:16","Termina com uma frase só (a do quadro “Falar no final”)","Legenda: copiar do painel, sem hashtag","Nenhum nome de cliente, contrato ou documento real na tela","Stories: no máximo 4 por dia, um com figurinha","Responder todos os comentários na 1ª hora"];
 
 /* ---------- NOTÍCIAS: varredura diária (só os últimos 7 dias, mais recentes primeiro) ----------

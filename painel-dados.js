@@ -33,23 +33,22 @@ Não precisa reescrever o sistema. Comece com uma análise de lacunas.
 Fonte: ISO/TC 176/SC 2. Confirme os prazos com a sua certificadora.`},
 
  {n:2,pilar:"IA · agentes",gravar:"2026-11-17",postar:"2026-11-19",onde:"Fala: carro parado. Tela: amanhã no trabalho",
-  tela:"Documentação de semanas saiu em dias, com auditor revisando.",
-  texto:`Documentação de sistema de gestão que levaria semanas saiu em dias, com auditor revisando cada documento.
+  tela:"Trabalho de semanas, feito em dias por uma equipe de IA.",
+  texto:`Trabalho de semanas, feito em dias por uma equipe de IA.
 
-Eu montei uma equipe de agentes de IA pra apoiar a documentação de sistemas ISO. Um agente escreve. Outro revisa. E quem escreve nunca revisa o próprio trabalho.
+Eu não uso um chat só. Eu organizo a IA como uma equipe.
 
-O auditor da equipe não edita nada do que revisa. Só dá o parecer, no estilo da ISO 19011. Quem decide é a pessoa.
+Cada agente tem uma função: um pesquisa, outro escreve, outro só revisa.
 
-Quando falta informação, a IA não inventa. Ela marca: a confirmar pela empresa.
+Quem escreve nunca revisa o próprio trabalho. Sozinha, a IA erra sem perceber. Com um revisor, o erro aparece antes de chegar a mim.
 
-E uma regra que eu não largo: documento pronto não é prática implantada. Escrever o procedimento é uma coisa. A empresa fazer de verdade é outra.`,
-  final:"Comenta AGENTE que eu te mando o passo a passo, ou me segue pra aprender o resto.",
-  legenda:`Documentação que levaria semanas saiu em dias, com auditor revisando cada documento.
-Uma equipe de agentes de IA: um escreve, outro revisa, o auditor nunca edita o que revisa.
-Quando falta informação, a IA marca a confirmar em vez de inventar.
-Documento pronto não é prática implantada.
+Eu dou a direção, a equipe entrega, e a decisão é minha.`,
+  final:"Comenta AGENTE que eu te mando o passo a passo.",
+  legenda:`Trabalho de semanas, feito em dias por uma equipe de IA.
+O segredo não é a ferramenta: é dar uma função a cada agente e ter alguém revisando.
+Quem escreve nunca revisa. A decisão final é sempre da pessoa.
 Comenta AGENTE pra receber o passo a passo.`,
-  nota:"Usar o vídeo de 7 s do mapa de documentos como B-roll durante o 2º e 3º parágrafos. Tela sem nome de cliente nem documento de cliente. Sem números exatos nem nome de empresa. Dizer 'semanas em dias' de forma abrangente."},
+  nota:"Usar o vídeo de 7 s do mapa de documentos como B-roll durante o 3º e 4º parágrafos. Tela sem nome de cliente nem documento de cliente. Sem números exatos nem nome de empresa. 'Semanas em dias' só de forma abrangente. Detalhes (revisão de auditor, a confirmar, prática implantada) ficam para a série."},
 
  {n:3,pilar:"Carreira",gravar:"2026-11-17",postar:"2026-11-20",onde:"Casa",
   tela:"Comecei como menor aprendiz. Hoje sou gestor de projetos.",
@@ -98,14 +97,12 @@ Depois, os especialistas. Um faz o diagnóstico do que falta. Outro levanta a le
 
 Um redator produz os documentos. E um auditor revisa, sem poder editar nada.
 
-Por que separar? Porque quem escreve não revisa. Um agente só fazendo tudo tende a errar sem perceber.
-
-Antes, era planilha e documento solto. Agora é lista mestra, painel e mapa dos documentos, tudo conectado.`,
-  final:"Me segue que eu mostro cada agente por dentro, ou comenta AGENTE pra receber o passo a passo.",
+Por que separar? Um agente só fazendo tudo tende a errar sem perceber.`,
+  final:"Quem escreve não revisa. Me segue que eu mostro cada agente por dentro, ou comenta AGENTE.",
   legenda:`Como montar uma equipe de agentes de IA pro seu SGI: um agente por função.
 Gerente de projeto, diagnóstico, legislação, especialista em cada norma, redator e auditor.
 Quem escreve não revisa.
-Antes: planilha solta. Agora: lista mestra, painel e mapa dos documentos.
+Me segue pra ver cada agente por dentro.
 Comenta AGENTE pra receber o passo a passo.`,
   nota:"Ângulo diferente do #2 (aqui é o passo a passo da equipe, não o resultado). Sem números internos. Tela: mapa dos documentos ou painel, sem cliente. Antes/depois só qualitativo."},
 

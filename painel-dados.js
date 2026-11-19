@@ -88,20 +88,20 @@ Não é motivação, é agenda.
 Me segue pra ver a rotina real.`},
 
  {n:5,pilar:"IA · automação",gravar:"2026-11-22",postar:"2026-11-23",onde:"Voz off (sem aparecer): narração gravada por cima do vídeo de tela de 19/11 (sem áudio). Cortes: mapa 0-14 s + pastas 22-43 s",
-  tela:"1 pasta = 1 agente de IA. Assim monto minha equipe.",
+  tela:"1 arquivo = 1 agente de IA. Assim monto minha equipe.",
   texto:`[0-3 s | imagem: mapa | tela: o texto do gancho]
-1 pasta = 1 agente de IA. Assim eu monto a minha equipe.
+1 arquivo = 1 agente de IA. Assim eu monto a minha equipe.
 
 [3-14 s | imagem: mapa dos documentos | tela: "Cada ponto = um documento"]
 Isto é o mapa dos documentos de um sistema de gestão. Cada ponto é um documento, cada linha é uma ligação entre eles. Quem mantém tudo conectado não é uma IA só. É uma equipe.
 
-[14-24 s | imagem: pastas do VS Code | tela: "1 pasta = 1 agente"]
-Por trás, cada agente é uma pasta, com a sua função escrita. Um gerente recebe o pedido e distribui. Os especialistas cuidam cada um de uma norma. Outro levanta a legislação para você conferir.
+[14-24 s | imagem: pastas do VS Code | tela: "1 arquivo = 1 agente"]
+Por trás, cada agente é um arquivo com a sua função escrita, todos na pasta de agentes. Um gerente recebe o pedido e distribui. Os especialistas cuidam cada um de uma norma. Outro levanta a legislação para você conferir.
 
 [24-35 s | imagem: pastas, rolando | tela: "Quem escreve não revisa"]
 Um redator produz os documentos. E um auditor só revisa, sem poder editar nada. Separar assim evita o erro que ninguém vê.`,
   final:"Comenta AGENTE que eu te mando o passo a passo.",
-  legenda:`1 pasta = 1 agente de IA. Assim eu monto a minha equipe.
+  legenda:`1 arquivo = 1 agente de IA. Assim eu monto a minha equipe.
 Gerente, especialista por norma, levantamento de legislação, redator e auditor.
 Quem escreve não revisa.
 Comenta AGENTE pra receber o passo a passo.`,

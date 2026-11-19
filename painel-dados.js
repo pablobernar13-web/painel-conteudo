@@ -87,7 +87,7 @@ Quinta e sábado, natação. Domingo, marmita da semana.
 Não é motivação, é agenda.
 Me segue pra ver a rotina real.`},
 
- {n:5,pilar:"IA · automação",gravar:"2026-11-19",postar:"2026-11-19",onde:"HOJE. Voz off (sem aparecer): narração gravada por cima do vídeo de tela de 19/11 (sem áudio). Cortes: mapa 0-14 s + pastas 22-43 s. Ativar a legenda automática do Instagram para a narração",
+ {n:5,pilar:"IA · automação",gravar:"2026-11-19",postar:"2026-11-19",onde:"HOJE. Voz off (sem aparecer): narração gravada por cima do vídeo de tela de 19/11 (sem áudio). Cortes: mapa 0-14 s + pastas 22-43 s. Vídeo já legendado",
   tela:"Toda a documentação ISO, conectada num mapa.",
   texto:`[0-4 s | imagem: mapa | tela: só o gancho escrito]
 Esse é o mapa de toda a documentação ISO de um sistema de gestão. Quem mantém ele é uma equipe de agentes de IA que eu criei.
@@ -105,16 +105,7 @@ E um auditor só revisa, sem editar nada. Quem escreve nunca revisa o próprio t
 Por trás, uma equipe de agentes de IA: gerente, especialista por norma, legislação, redator e auditor.
 Quem escreve nunca revisa.
 Nos próximos vídeos eu mostro cada agente por dentro. Me segue pra não perder.`,
-  nota:`VÍDEO FINAL PRONTO: midia/processado/reels-05-final.mp4 (25,8 s, 720x1280, com os textos de tela e 2 sons de transição; original intacto). ANTES DE POSTAR, conferir no vídeo (não foi borrado): logo Russell Bedford no mousepad (0-3 s); explorador do VS Code com SGI_NOVA, SGI_RUSSELL, iso-sgi-medicao e 01_SGI-GERAL_MEDICAO (~7 a 12 s); "Núcleo do SGI · SI" e barra de busca (~21 s); barra de endereço, favoritos e relógio não foram checados. Se não der para borrar, decidir se posta assim. HOJE (19/11, 12h20 ou à noite). Tela: só o gancho escrito nos 0-2 s; ative a legenda automática do Instagram para a narração. VISUAL = vídeo de tela gravado em 19/11 (49 s, sem áudio, tremido), em midia/processado. Corte: 0-14 s mapa + corte natural em 21,7 s + 22-43 s pastas (uns 35 s; se preferir 28 s, termine em 36 s e corte a última frase). Narração em voz off por cima, ~35 s. Ângulo diferente do #2 (resultado) e do #7 (auditor com exemplo): aqui é só como montar a equipe. Sem números internos, sem PPP/cliente, sem dizer onde foi usado. BORRAR/CORTAR (social-media): logo Russell Bedford no mousepad (0,5 s); título da aba, cabeçalho, rodapé com nome da empresa e data da lista; barra de endereço (caminho de pastas); favoritos (FileServer, Compartilhamento, PORTAL, ESPEC); contagens da lateral do painel (números internos); no VS Code os nomes SGI_RUSSELL, SGI_NOVA, iso-sgi-medicao, 01_SGI-GERAL_MEDIÇÃO e o nome da pasta raiz no Explorer (deixar visíveis só agents, commands, skills e iso-9001/14001/45001); Obsidian, relógio e data da barra de tarefas (monitor da esquerda). Capa: quadro de 0,5 s sem o logo, ou o mapa borrado. Confira um scroll-through do vídeo inteiro antes de postar (só 6 quadros foram vistos).
-BORRAR ANTES DE POSTAR:
-1) Logo Russell Bedford no mousepad (~0,5 s).
-2) Título da aba, cabeçalho e rodapé com nome da empresa e data (~9 s).
-3) Barra de endereço com caminho de pastas.
-4) Favoritos (FileServer, Compartilhamento, PORTAL, ESPEC).
-5) Contagens da lateral (números internos).
-6) VS Code: nomes de pasta iso-sgi-medicao, SGI_NOVA, SGI_RUSSELL, 01_SGI-GERAL_MEDIÇÃO.
-7) Monitor da esquerda: Obsidian e relógio com data (se aparecer no corte).
-Capa: quadro de 0,5 s sem o logo, ou o mapa já borrado. Conferir o vídeo final quadro a quadro antes de postar. Usar o texto de tela entre aspas em cada cena.`},
+  nota:`PRONTO PARA POSTAR: midia/processado/reels-05-final.mp4 (25,8 s, 720x1280) já com textos de tela, 2 sons de transição, legendas queimadas (também em midia/processado/reels-05.srt) e borrões (logo no mousepad, barra do navegador, nomes das pastas de projeto no VS Code, título "Núcleo do SGI", barra de tarefas). NÃO ativar a legenda automática do Instagram (já vai legendado). Original intacto em midia/entrada/referencias. Vale ver o vídeo inteiro uma vez antes de postar; a legenda ~19 s saiu "Um audita ou revisa." (conferir se bate com o que você falou). Capa: um quadro dos primeiros 2 s com o texto do gancho.`},
 
  {n:6,pilar:"Gestão de projetos",gravar:"2026-11-20",postar:"2026-11-24",onde:"Casa",
   tela:"5 erros de quem gerencia projeto. O 3º é o que eu mais vejo.",

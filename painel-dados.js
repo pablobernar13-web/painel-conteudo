@@ -33,22 +33,23 @@ Não precisa reescrever o sistema. Comece com uma análise de lacunas.
 Fonte: ISO/TC 176/SC 2. Confirme os prazos com a sua certificadora.`},
 
  {n:2,pilar:"IA · agentes",gravar:"2026-11-17",postar:"2026-11-19",onde:"Fala: carro parado. Tela: amanhã no trabalho",
-  tela:"Equipe de IA: de 10% a 55% dos documentos com parecer.",
-  texto:`Uma equipe de IA levou de 10% a 55% dos documentos de um sistema ISO a ter parecer, em 7 dias.
+  tela:"Documentação de semanas saiu em dias, com auditor revisando.",
+  texto:`Documentação de sistema de gestão que levaria semanas saiu em dias, com auditor revisando cada documento.
 
-Eu criei uma equipe de agentes de IA pra implantar sistema de gestão ISO. Testei na própria Russell Bedford, onde eu trabalho.
+Eu montei uma equipe de agentes de IA pra apoiar a documentação de sistemas ISO. Um agente escreve. Outro revisa. E quem escreve nunca revisa o próprio trabalho.
 
-Um agente escreve, outro revisa. O auditor, que nunca edita o que revisa, deu 58 pareceres. E os alertas altos caíram de 65 para 35.
+O auditor da equipe não edita nada do que revisa. Só dá o parecer, no estilo da ISO 19011. Quem decide é a pessoa.
 
-Tem um detalhe que eu não largo: documento pronto não é prática implantada. Só conta como concluído com parecer na revisão vigente.
+Quando falta informação, a IA não inventa. Ela marca: a confirmar pela empresa.
 
-É resultado parcial, e as horas são estimadas: 150 horas no método manual contra 4 horas e pouco com a equipe, na amostra comparável. Não é garantia, é o que medi até agora.`,
-  final:"Comenta AGENTE que eu te mostro como essa equipe funciona.",
-  legenda:`Uma equipe de agentes de IA levou de 10% a 55% dos documentos do SGI da Russell Bedford Brasil a ter parecer, em uma semana.
-58 pareceres do auditor. Alertas altos de 65 para 35.
-Aviso: resultado parcial e horas estimadas (150 h manual contra 4,25 h na amostra comparável). Não é promessa de economia.
-Comenta AGENTE que eu te mostro como funciona.`,
-  nota:"Resultado parcial, horas estimadas: manter o aviso na fala. Pode usar o vídeo de 7 s do mapa de documentos como B-roll durante o 3º parágrafo. Tela sem nome de cliente nem documento de cliente; só o SGI da Russell. Se ele quiser dizer 4,25 h por extenso: quatro horas e quinze minutos."},
+E uma regra que eu não largo: documento pronto não é prática implantada. Escrever o procedimento é uma coisa. A empresa fazer de verdade é outra.`,
+  final:"Comenta AGENTE que eu te mando o passo a passo, ou me segue pra aprender o resto.",
+  legenda:`Documentação que levaria semanas saiu em dias, com auditor revisando cada documento.
+Uma equipe de agentes de IA: um escreve, outro revisa, o auditor nunca edita o que revisa.
+Quando falta informação, a IA marca a confirmar em vez de inventar.
+Documento pronto não é prática implantada.
+Comenta AGENTE pra receber o passo a passo.`,
+  nota:"Usar o vídeo de 7 s do mapa de documentos como B-roll durante o 2º e 3º parágrafos. Tela sem nome de cliente nem documento de cliente. Sem números exatos nem nome de empresa. Dizer 'semanas em dias' de forma abrangente."},
 
  {n:3,pilar:"Carreira",gravar:"2026-11-17",postar:"2026-11-20",onde:"Casa",
   tela:"Comecei como menor aprendiz. Hoje sou gestor de projetos.",
@@ -88,22 +89,25 @@ Não é motivação, é agenda.
 Me segue pra ver a rotina real.`},
 
  {n:5,pilar:"IA · automação",gravar:"2026-11-22",postar:"2026-11-23",onde:"Tela dividida + fala curta",
-  tela:"Antes: 150 horas. Depois: 4 horas (estimadas).",
-  texto:`Antes: 150 horas. Depois: 4 horas, estimadas. Mesma tarefa.
+  tela:"Como montar uma equipe de agentes de IA pro seu SGI: 1 agente por função.",
+  texto:`Como montar uma equipe de agentes de IA pro seu sistema de gestão: um agente por função.
 
-A tarefa é produzir e revisar os documentos de um sistema de gestão ISO. Do jeito manual, numa amostra comparável, deu 150 horas.
+Primeiro, um gerente de projeto. É o ponto único: você fala só com ele, e ele distribui o trabalho.
 
-Com a equipe de agentes de IA que eu criei, a estimativa é 4,25 horas. Isso dá mais de 95% a menos.
+Depois, os especialistas. Um faz o diagnóstico do que falta. Outro levanta a legislação aplicável pra você conferir. Um para cada norma: 9001, 14001 e 45001.
 
-Mas olha o aviso: é resultado parcial e as horas são estimadas, não é garantia. Documento só conta como concluído depois do parecer do auditor.
+Um redator produz os documentos. E um auditor revisa, sem poder editar nada.
 
-Se isso se confirmar, é tempo devolvido pra pensar no projeto, e não pra copiar dado de um lugar pro outro.`,
-  final:"Salva e escolhe uma tarefa sua pra automatizar na segunda.",
-  legenda:`Antes: 150 horas. Depois: 4,25 horas estimadas, na amostra comparável do SGI da Russell Bedford Brasil.
-Economia indicativa de mais de 95%.
-Aviso: resultado parcial e horas estimadas, não é garantia.
-Salva e escolhe uma tarefa sua pra automatizar na segunda.`,
-  nota:"Números do caso zero (28/10 a 03/11/2026), resultado parcial: manter o aviso na fala. Tela com o mapa de documentos ou planilha sem cliente. Confirme se o #2 já apresentou esses números; se sim, mude o ângulo para mostrar o método manual vs. a equipe."},
+Por que separar? Porque quem escreve não revisa. Um agente só fazendo tudo tende a errar sem perceber.
+
+Antes, era planilha e documento solto. Agora é lista mestra, painel e mapa dos documentos, tudo conectado.`,
+  final:"Me segue que eu mostro cada agente por dentro, ou comenta AGENTE pra receber o passo a passo.",
+  legenda:`Como montar uma equipe de agentes de IA pro seu SGI: um agente por função.
+Gerente de projeto, diagnóstico, legislação, especialista em cada norma, redator e auditor.
+Quem escreve não revisa.
+Antes: planilha solta. Agora: lista mestra, painel e mapa dos documentos.
+Comenta AGENTE pra receber o passo a passo.`,
+  nota:"Ângulo diferente do #2 (aqui é o passo a passo da equipe, não o resultado). Sem números internos. Tela: mapa dos documentos ou painel, sem cliente. Antes/depois só qualitativo."},
 
  {n:6,pilar:"Gestão de projetos",gravar:"2026-11-20",postar:"2026-11-24",onde:"Casa",
   tela:"5 erros de quem gerencia projeto. O 3º é o que eu mais vejo.",
@@ -127,22 +131,25 @@ Comenta qual desses você mais vê no seu trabalho.`,
   nota:"Se puder, conte um caso seu no erro 3, sem citar cliente."},
 
  {n:7,pilar:"IA + ISO",gravar:"2026-11-22",postar:"2026-11-25",onde:"Casa + tela",
-  tela:"Pedi pra IA revisar um documento da ISO. Olha o que ela achou.",
-  texto:`Pedi pra IA revisar um documento da ISO. Olha o que ela achou.
+  tela:"Uma IA revisou meu procedimento de ISO. Olha o parecer (EXEMPLO).",
+  texto:`Uma IA revisou meu procedimento de ISO. Olha o parecer.
 
 Eu criei um plugin que trabalha como uma equipe: um agente escreve, outro é especialista na norma, e o auditor revisa sem poder editar nada, no estilo da ISO 19011.
 
-Na revisão do SGI da Russell, ele deu 58 pareceres, resultado parcial do meu teste, e apontou [o achado real: exemplo de um parecer]. Quando falta informação, a IA escreve [a confirmar pela empresa] em vez de inventar.
+Exemplo inventado só pra este vídeo: o auditor aponta que o procedimento descreve o controle de documentos, mas não diz quem aprova a emissão. Ele não corrige. Só registra o achado e devolve pro redator.
 
-E o documento só conta como concluído com parecer na revisão vigente.
+Quando falta informação, a IA escreve a confirmar pela empresa, em vez de inventar.
 
-Mas ele não substitui gente. Quem decide se é não conformidade sou eu. A IA acha, o humano decide o que é problema.`,
+E documento pronto não é prática implantada: escrever o procedimento é uma coisa, a empresa fazer de verdade é outra.
+
+Ele não substitui gente. A IA acha, o humano decide o que é problema.`,
   final:"Comenta ISO que eu te mostro como ele funciona por dentro.",
   legenda:`Uma equipe de agentes de IA revisando documento ISO: um escreve, um é especialista na norma, um audita sem editar.
-58 pareceres no SGI da Russell Bedford Brasil. A IA encontra, o humano decide.
-Aviso: resultado parcial do caso.
+O auditor só dá o parecer e devolve pro redator. Quando falta dado, a IA marca a confirmar.
+O exemplo do vídeo é ilustrativo.
+A IA encontra, o humano decide.
 Comenta ISO pra ver por dentro.`,
-  nota:"Falta um exemplo real de parecer do auditor (sem dado de cliente) para o colchete; pegue um do SGI da Russell. Os 58 pareceres são do caso zero (28/10 a 03/11/2026), resultado parcial."},
+  nota:"Exemplo de parecer é ilustrativo e genérico (dito na fala); sem dado de cliente nem número de pareceres. Tela: mostrar um parecer de exemplo montado só pro vídeo."},
 
  {n:8,pilar:"Bastidor",gravar:"2026-11-20",postar:"2026-11-26",onde:"Casa",
   tela:"Criei um software depois do expediente. Ele já tem cliente pagando.",

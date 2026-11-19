@@ -93,7 +93,7 @@ Me segue pra ver a rotina real.`},
 Esse é o mapa de toda a documentação ISO de um sistema de gestão. Quem mantém ele é uma equipe de agentes de IA que eu criei.
 
 [4-14 s | imagem: mapa]
-Cada ponto é um documento. Cada linha mostra quem cita quem. Se um documento muda, eu vejo na hora o que precisa mudar junto.
+Cada ponto é um documento. Cada linha mostra quem cita quem. Se um documento muda, eu vejo na hora o que está ligado a ele.
 
 [14-26 s | imagem: pastas do VS Code]
 Por trás, cada agente tem uma função escrita: um gerente distribui o trabalho, especialistas cuidam cada um de uma norma, um levanta a legislação e um redator escreve os documentos.

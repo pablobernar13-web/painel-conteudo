@@ -88,23 +88,23 @@ Não é motivação, é agenda.
 Me segue pra ver a rotina real.`},
 
  {n:5,pilar:"IA · automação",gravar:"2026-11-19",postar:"2026-11-19",onde:"HOJE. Voz off (sem aparecer): narração gravada por cima do vídeo de tela de 19/11 (sem áudio). Cortes: mapa 0-14 s + pastas 22-43 s. Ativar a legenda automática do Instagram para a narração",
-  tela:"1 arquivo = 1 agente de IA.",
-  texto:`[0-3 s | imagem: mapa | tela: só o gancho escrito]
-1 arquivo = 1 agente de IA. Assim eu monto a minha equipe.
+  tela:"Toda a documentação ISO, conectada num mapa.",
+  texto:`[0-4 s | imagem: mapa | tela: só o gancho escrito]
+Esse é o mapa de toda a documentação ISO de um sistema de gestão. Quem mantém ele é uma equipe de agentes de IA que eu criei.
 
-[3-14 s | imagem: mapa dos documentos]
-Isto é o mapa dos documentos de um sistema de gestão. Cada ponto é um documento, cada linha é uma ligação entre eles. Quem mantém tudo conectado não é uma IA só. É uma equipe.
+[4-14 s | imagem: mapa]
+Cada ponto é um documento. Cada linha mostra quem cita quem. Se um documento muda, eu vejo na hora o que precisa mudar junto.
 
-[14-24 s | imagem: pastas do VS Code]
-Por trás, cada agente é um arquivo com a sua função escrita, todos na pasta de agentes. Um gerente recebe o pedido e distribui. Os especialistas cuidam cada um de uma norma. Outro levanta a legislação para você conferir.
+[14-26 s | imagem: pastas do VS Code]
+Por trás, cada agente tem uma função escrita: um gerente distribui o trabalho, especialistas cuidam cada um de uma norma, um levanta a legislação e um redator escreve os documentos.
 
-[24-35 s | imagem: pastas, rolando]
-Um redator produz os documentos. E um auditor só revisa, sem poder editar nada. Separar assim evita o erro que ninguém vê.`,
-  final:"Me segue que nos próximos vídeos eu mostro cada agente por dentro.",
-  legenda:`1 arquivo = 1 agente de IA. Assim eu monto a minha equipe.
-Gerente, especialista por norma, levantamento de legislação, redator e auditor.
-Quem escreve não revisa.
-Me segue que nos próximos vídeos eu mostro cada agente por dentro.`,
+[26-35 s | imagem: pastas rolando]
+E um auditor só revisa, sem editar nada. Quem escreve nunca revisa o próprio trabalho.`,
+  final:"Nos próximos vídeos eu mostro cada agente por dentro. Me segue pra não perder.",
+  legenda:`Toda a documentação ISO de um sistema de gestão, conectada num mapa.
+Por trás, uma equipe de agentes de IA: gerente, especialista por norma, legislação, redator e auditor.
+Quem escreve nunca revisa.
+Nos próximos vídeos eu mostro cada agente por dentro. Me segue pra não perder.`,
   nota:`HOJE (19/11, 12h20 ou à noite). Tela: só o gancho escrito nos 0-2 s; ative a legenda automática do Instagram para a narração. VISUAL = vídeo de tela gravado em 19/11 (49 s, sem áudio, tremido), em midia/processado. Corte: 0-14 s mapa + corte natural em 21,7 s + 22-43 s pastas (uns 35 s; se preferir 28 s, termine em 36 s e corte a última frase). Narração em voz off por cima, ~35 s. Ângulo diferente do #2 (resultado) e do #7 (auditor com exemplo): aqui é só como montar a equipe. Sem números internos, sem PPP/cliente, sem dizer onde foi usado. BORRAR/CORTAR (social-media): logo Russell Bedford no mousepad (0,5 s); título da aba, cabeçalho, rodapé com nome da empresa e data da lista; barra de endereço (caminho de pastas); favoritos (FileServer, Compartilhamento, PORTAL, ESPEC); contagens da lateral do painel (números internos); no VS Code os nomes SGI_RUSSELL, SGI_NOVA, iso-sgi-medicao, 01_SGI-GERAL_MEDIÇÃO e o nome da pasta raiz no Explorer (deixar visíveis só agents, commands, skills e iso-9001/14001/45001); Obsidian, relógio e data da barra de tarefas (monitor da esquerda). Capa: quadro de 0,5 s sem o logo, ou o mapa borrado. Confira um scroll-through do vídeo inteiro antes de postar (só 6 quadros foram vistos).
 BORRAR ANTES DE POSTAR:
 1) Logo Russell Bedford no mousepad (~0,5 s).
@@ -214,7 +214,7 @@ Salva pra montar a sua no próximo domingo.`}
 const STORIES={
  "2026-11-17":[["Agora","Compartilhar o post de hoje (ISO 9001)","Saiu meu primeiro vídeo. Sua empresa é certificada ISO?","Enquete: Sim / Não"],["Depois da corrida","Print do relógio com km e tempo","Treino feito.",""]],
  "2026-11-18":[["Manhã","Foto do café com ovos","Bom dia. Hoje sai vídeo sobre a ISO 9001 nova.",""],["12h20","Compartilhar o vídeo de hoje nos stories","Saiu vídeo novo. Seu certificado tem prazo.","Enquete: “Sua empresa é certificada ISO?” Sim / Não"],["Noite","Clip de 5 s da academia ou da corrida","Você treina de manhã ou de noite?","Enquete: Manhã / Noite"]],
- "2026-11-19":[["Manhã","Foto do café","Bom dia. Hoje sai vídeo: como eu monto minha equipe de agentes de IA.",""],["12h20","Compartilhar o vídeo de hoje","Como eu monto minha equipe de agentes de IA, por dentro.","Caixinha: “Que tarefa você queria que uma IA fizesse por você?”"],["Noite","Clip de 5 s da natação","Quinta é dia de natação.",""],["Noite","5 s do mapa do vídeo gravado hoje, com cabeçalho, rodapé, barra de endereço, favoritos e logo borrados (sem tela final, sem marcar a empresa)","Isso é o mapa que a minha equipe de agentes mantém conectado. Qual norma você quer ver virar agente?","Caixinha de perguntas em cima do mapa. Usar as respostas como pauta de stories e termômetro do interesse"]],
+ "2026-11-19":[["Manhã","Foto do café","Bom dia. Hoje sai vídeo: como eu monto minha equipe de agentes de IA.",""],["12h20","Compartilhar o vídeo de hoje","Toda a documentação ISO conectada num mapa. Hoje mostro quem mantém isso.","Caixinha: “Que tarefa você queria que uma IA fizesse por você?”"],["Noite","Clip de 5 s da natação","Quinta é dia de natação.",""],["Noite","5 s do mapa do vídeo gravado hoje, com cabeçalho, rodapé, barra de endereço, favoritos e logo borrados (sem tela final, sem marcar a empresa)","Isso é o mapa que a minha equipe de agentes mantém conectado. Qual norma você quer ver virar agente?","Caixinha de perguntas em cima do mapa. Usar as respostas como pauta de stories e termômetro do interesse"]],
  "2026-11-20":[["Manhã","Foto do dia de folga","Feriado. Hoje conto de onde eu vim.",""],["12h20","Compartilhar o vídeo de hoje","De menor aprendiz a gestor de projetos.","Caixinha: “Qual foi o seu primeiro emprego?”"],["Noite","Clip da academia","Semana quase fechada.",""]],
  "2026-11-21":[["Meio-dia","Clip de 5 s da natação","Sábado começa na piscina.",""],["Tarde","Compartilhar o vídeo de hoje","A rotina real, sem filtro.",""],["Fim da tarde","Selfie ou foto do sábado","O que você faz pra desligar no fim de semana?","Caixinha de perguntas"]],
  "2026-11-22":[["Manhã","Clip de 5 s do cardio","Domingo: cardio e marmitas.",""],["Tarde","Foto das marmitas prontas","5 almoços prontos.","Enquete: “Você faz marmita?” Sim / Não"],["Noite","Foto do celular montado pra gravar","Gravando os vídeos da semana que vem.",""]],

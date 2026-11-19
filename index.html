@@ -127,9 +127,10 @@ details[open]>summary .chev{transform:rotate(-135deg);margin:4px 4px 0}
   </div>
 
   <nav aria-label="Seções">
-    <a href="#hoje">Hoje</a><a href="#semana">Calendário</a><a href="#reels">Vídeos</a><a href="#ganchos">Ganchos e finais</a><a href="#regras">Regras</a>
+    <a href="#noticias">Notícias</a><a href="#hoje">Hoje</a><a href="#semana">Calendário</a><a href="#reels">Vídeos</a><a href="#ganchos">Ganchos e finais</a><a href="#regras">Regras</a>
   </nav>
 
+  <section id="v-noticias" hidden></section>
   <section id="v-hoje"></section>
   <section id="v-semana" hidden></section>
   <section id="v-reels" hidden></section>
@@ -277,9 +278,21 @@ function renderStats(){
   document.getElementById("st-rec").textContent=REELS.filter(r=>done["g-r"+r.n]).length+"/"+REELS.length;
   document.getElementById("st-post").textContent=REELS.filter(r=>done["p-r"+r.n]).length+"/"+REELS.length;
 }
-function renderAll(){renderHoje();renderSemana();renderReels();renderGanchos()}
+function renderNoticias(){
+  const lim=new Date();lim.setDate(lim.getDate()-7);const min=fmt(lim);
+  const list=(typeof NOTICIAS!=="undefined"?NOTICIAS:[]).filter(n=>n.data>=min).sort((a,b)=>b.data.localeCompare(a.data));
+  const up=typeof NOTICIAS_ATUALIZADO!=="undefined"?ddmm(NOTICIAS_ATUALIZADO):"";
+  const safe=u=>/^https?:\/\//.test(u)?u:"#";
+  document.getElementById("v-noticias").innerHTML=`<div class="sub">Varredura diária: PPPs, iluminação pública, verificação independente, gestão de projetos.${up?" Atualizado em "+up+".":""} Últimos 7 dias.</div>`+
+   (list.length?list.map(n=>`<div class="card"><div class="meta"><span class="chip">${esc(n.fonte)}</span><span>${ddmm(n.data)}</span></div>
+     <a class="hook" style="font-size:1.02rem;color:var(--fg);text-decoration:none" href="${esc(safe(n.link))}" target="_blank" rel="noopener">${esc(n.titulo)}</a>
+     <div>${esc(n.resumo)}</div>
+     <div class="say story" style="display:block;border:0;padding:0"><div class="final"><small>Ângulo de story ou pauta</small>${esc(n.angulo)}</div></div>
+     <div class="blockhead">${copyBtn(n.angulo,"Copiar ângulo")}<a class="linkbtn" href="${esc(safe(n.link))}" target="_blank" rel="noopener">Abrir notícia</a></div></div>`).join(""):`<div class="card"><div class="empty">Sem notícias nos últimos 7 dias.</div></div>`);
+}
+function renderAll(){renderNoticias();renderHoje();renderSemana();renderReels();renderGanchos()}
 
-const VIEWS=["hoje","semana","reels","ganchos","regras"];
+const VIEWS=["noticias","hoje","semana","reels","ganchos","regras"];
 function route(){
   const v=VIEWS.includes(location.hash.slice(1))?location.hash.slice(1):"hoje";
   VIEWS.forEach(k=>{document.getElementById("v-"+k).hidden=k!==v});

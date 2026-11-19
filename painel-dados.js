@@ -10,7 +10,7 @@
    Regras: manter JavaScript válido; textos com crase `...`; não usar crase dentro do texto.
    Ids de vídeo (n) nunca mudam depois de publicados: o progresso marcado depende deles.
    ===================================================================== */
-const PERFIL={seguidores:12,seguidoresData:"17/11",destaqueNum:209,destaqueTxt:"views no post 02 (18/11)"};
+const PERFIL={seguidores:23,seguidoresData:"19/11 (12 em 17/11)",destaqueNum:454,destaqueTxt:"views nos últimos 30 dias"};
 
 /* ---------- VÍDEOS: texto completo para o teleprompter ---------- */
 const REELS=[
